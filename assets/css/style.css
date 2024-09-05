@@ -1,0 +1,50 @@
+/* Estilo geral para a página de resultado do signo */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #B69CF4, #261D57); /* Gradiente de roxo claro para roxo escuro */
+}
+
+.signo-container {
+    text-align: center;
+    color: white;
+}
+
+.signo-nome {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.signo-descricao {
+    font-size: 1.5em;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+/* Estilos customizados para o formulário */
+#signo-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#data_nascimento {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+button[type="submit"] {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
