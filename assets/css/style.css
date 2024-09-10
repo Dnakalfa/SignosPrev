@@ -28,11 +28,16 @@ body, html {
 }
 
 /* Estilos customizados para o formulário */
-#signo-form {
+#signo-form-ext {
     max-width: 500px;
-    margin: 0 auto;
-    border: 2px solid ;
-    border-radius: 3px;
+    margin: 26px auto;
+    border: 5px solid;
+    border-radius: 10px;
+}
+#signo-form-int{
+    max-width: 500px;
+    margin: 16px auto;
+    
 }
 
 #data_nascimento {

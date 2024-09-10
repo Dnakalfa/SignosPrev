@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<div id="signo-form" class="container mt-5">
+<div id="signo-form-ext" class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6 text-center">
             <h1>Descubra seu signo:</h1>
-            <form id="signo-form" method="POST" action="show_zodiac_sign.php">
+            <form id="signo-form-int" method="POST" action="show_zodiac_sign.php">
                 <div class="form-group mt-4">
                     <label for="data_nascimento">Data de nascimento</label>
                     <input type="text" class="form-control text-center" id="data_nascimento" name="data_nascimento" placeholder="Ex.: 21/05/1992">
